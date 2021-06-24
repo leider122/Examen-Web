@@ -35,7 +35,7 @@ public class Tabla extends HttpServlet {
         AnalizadorLlamadas al=new AnalizadorLlamadas();
         Usuario u =al.validarBase(cedula);
         if(u!=null){
-            String tablaUsuario=al.getTablaUsuario(u);
+        String tablaUsuario=al.getTablaUsuario(u);
         String tablaLlamadas=al.getTablaLlamadas(u);
         request.getSession().setAttribute("tabla1", tablaUsuario);
         request.getSession().setAttribute("tabla2", tablaLlamadas);

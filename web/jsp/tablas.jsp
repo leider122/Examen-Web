@@ -23,6 +23,11 @@
         <input type="submit" name="boton" value="Consultar Factura">
         </form>
         </div>
+        <div><%
+            String tablas=request.getParameter("tabla1");
+            tablas+=request.getParameter("tabla2");
+            out.println();
+            %></div>
         <footer>
     	<h5 class="text-center" style="margin-top: 60px;">UFPS-2021-Programación web- UFPS</h5>
 </footer>
