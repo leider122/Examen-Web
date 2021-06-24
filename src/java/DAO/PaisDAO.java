@@ -31,7 +31,7 @@ public class PaisDAO {
     return pa.findPaisEntities();
     }
     
-    public Pais readDpt(int cod){
+    public Pais readPais(int cod){
         return pa.findPais(cod);
     }
     

@@ -9,9 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Error</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Error La cedula ingresado no se encuentra registrada como un usuario, ingrese nuevamente</h1>
+        <a type="button" href="../index.html" >Volver al Inicio</a>
     </body>
 </html>

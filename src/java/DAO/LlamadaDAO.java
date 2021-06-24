@@ -30,7 +30,7 @@ public class LlamadaDAO {
     return l.findLlamadaEntities();
     }
     
-    public Llamada readDpt(int cod){
+    public Llamada readLlamada(int cod){
         return l.findLlamada(cod);
     }
     
