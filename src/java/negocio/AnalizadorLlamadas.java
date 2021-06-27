@@ -49,6 +49,10 @@ public class AnalizadorLlamadas {
         
         return tabla+llamadas+"</table>";
     }
+
+    /*
+    CODIGO REDUNDANTE , SI YA TENÍA READ(CEDULA)
+    */
     public List<Llamada> llamadasPersona(Usuario u){
         List<Llamada> l=new ArrayList();
         
