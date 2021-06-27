@@ -32,7 +32,10 @@ public class Tabla extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         int cedula=Integer.parseInt(request.getParameter("cedula"));
+        //MAL NOMBRE DE CLASE DEL NEGOCIO
         AnalizadorLlamadas al=new AnalizadorLlamadas();
+
+        //ESTO ES NEGOCIO?? UN DTO??
         Usuario u =al.validarBase(cedula);
         if(u!=null){
         String tablaUsuario=al.getTablaUsuario(u);
